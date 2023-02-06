@@ -51,7 +51,7 @@ Another way to align items on the main axis is to use auto margins. This enables
 
 Here we are using the auto margins technique described in [Using auto margins for main axis alignment](/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container#using_auto_margins_for_main_axis_alignment). The items are aligned on the main axis with `flex-start` as this is the initial behavior of flexbox, and we are aligning the item on the right by giving it a left margin of auto. You can move the class from one item to another to change where the split happens.
 
-Also in this example we are using margins on the flex items to create a gap between items, and a negative margin on the container in order that the items still remain flush with the right and left edges. Until the `gap` properties from the Box Alignment specification are implemented in flexbox, we have to use margins in this way if we want to create a gutter between items.
+Also in this example we are using margins on the flex items to create a gap between items, and a negative margin on the container in order that the items still remain flush with the right and left edges. You can achieve the same results by using the `gap` properties to create a gutter between items.
 
 {{EmbedGHLiveSample("css-examples/flexbox/use-cases/split-navigation.html", '100%', 550)}}
 
